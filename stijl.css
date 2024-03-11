@@ -1,0 +1,49 @@
+/* Algemene opmaak */
+header{
+    background-color: black;
+    padding: 5px;
+}
+
+footer{
+    min-height: 200px;
+    background-color: black;
+    padding: 5px;
+}
+
+/* Opmaak invulformulier */
+input[type="text"], input[type="email"], textarea, select, button{
+    display: block;
+    margin: 15px 0px;
+    width: 400px;
+    box-sizing: border-box; 
+    box-shadow: inset 2px 2px 2px  #979797;
+}
+
+button:hover{
+    color: white;
+    background-color: #000000;
+}
+
+button:active{
+    color: white;
+    background-color: rgb(35, 34, 40);
+}
+
+textarea{
+    height: 100px;
+    padding: 5px 4px;
+}
+
+.container-sm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Opmaak afbeeldingen*/
+img{
+    width: 75%;
+    height: 100%;
+    padding: 5px;
+}
